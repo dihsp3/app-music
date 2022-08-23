@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Music APP</title>
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span> <i class="bi bi-music-note-beamed"></i> Playlist</h4>
+                <h4 class="active"><span></span> <i class="bi bi-music-note-beamed"></i> Last Listening</h4>
+                <h4 class="active"><span></span> <i class="bi bi-music-note-beamed"></i> Recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songTtem">
+                    <span>01</span>
+                    <img src="img/brimetimao.jpg" alt="Timao">
+                    <h5>
+                        Chelsea
+                        <div class="subtitle">BR!ME</div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    </h5>
+
+                </li>
+                <li class="songTtem">
+                    <span>02</span>
+                    <img src="img/All_Falls_Down.jpg" alt="Kanye">
+                    <h5>
+                        All Falls Down
+                        <div class="subtitle">Kanye West</div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                    </h5>
+
+                </li>
+                <li class="songTtem">
+                    <span>03</span>
+                    <img src="img/mckevin.jpg" alt="Kevin">
+                    <h5>
+                        Escobar900
+                        <div class="subtitle">Mc Kevin</div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                    </h5>
+
+                </li>
+                <li class="songTtem">
+                    <span>04</span>
+                    <img src="img/Eazy-e.jpg" alt="Easy-E">
+                    <h5>
+                        Boyz-n-the-Hood
+                        <div class="subtitle">Eazy-E</div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                    </h5>
+
+                </li>
+                <li class="songTtem">
+                    <span>05</span>
+                    <img src="img/big.jpg" alt="Big">
+                    <h5>
+                        Get Money
+                        <div class="subtitle">B.I.G</div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                    </h5>
+
+                </li>
+                <li class="songTtem">
+                    <span>06</span>
+                    <img src="img/wu-tang.jpg" alt="Timao">
+                    <h5>
+                        C.R.E.A.M
+                        <div class="subtitle">Wu Tang</div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                    </h5>
+                    
+                </li>
+            </div>
+        </div>
+
+
+        <div class="song_side">
+
+            <nav>
+                <ul>
+                    <li>DISCOVER <span></span></li>
+                    <li>MY LIBRARY</li>
+                    <li>RÁDIO</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search music ...">
+                </div>
+                <div class="user">
+                    <img src="img/Music-logo" alt="User" title="music">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Mc kevin</h1>
+                <p>
+                    Kevin Nascimento Bueno (São Paulo, 29 de abril de 1998 — Rio de Janeiro, 16 de maio de 2021) <br> conhecido artisticamente como MC Kevin, foi um cantor e compositor brasileiro.
+                </p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="ritgh_scroll" class="bi bi-arrow-right-short"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/wu-tang.jpg" alt="big">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>C.R.E.A.M
+                            <br>
+                            <div class="subtitle">Wu Tang</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/big.jpg" alt="big">
+                            <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+
+                        </div>
+                        <h5>Get Money
+                            <br>
+                            <div class="subtitle">B.I.G</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/brimetimao.jpg" alt="big">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>Chelsea
+                            <br>
+                            <div class="subtitle">BR!ME</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/Eazy-e.jpg" alt="big">
+                            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>Boyz-n-the-Hood
+                            <br>
+                            <div class="subtitle">Eazy-E</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/mckevin.jpg" alt="big">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>Escobar900
+                            <br>
+                            <div class="subtitle">Mc Kevin</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2pacc.png" alt="big">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>Thug Life
+                            <br>
+                            <div class="subtitle">Tupac Shakur</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/50ceent.png" alt="big">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>Best Friend
+                            <br>
+                            <div class="subtitle">50 Cent</div>
+                        </h5>
+                    </li>
+                     <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/wu-tang.jpg" alt="big">
+                            <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>C.R.E.A.M
+                            <br>
+                            <div class="subtitle">Wu Tang</div>
+                        </h5>
+                    </li>
+                </div>
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                        <i id="ritgh_scrolls" class="bi bi-arrow-right-short"></i>
+                    </div>
+                    <div class="item">
+                        <li>
+                            <img src="img/snoop-dogg.png" alt="Snoop Dogg" title="Snoop Dogg">
+                        </li>
+                        <li>
+                            <img src="img/sabota.png" alt="Sabotage" title="Sabotage">
+                        </li>
+                        <li>
+                            <img src="img/big.jpg" alt="B.I.G" title="B.I.G">
+                        </li>
+                        <li>
+                            <img src="img/brimetimao.jpg" alt="BR!ME" title="BR!ME">
+                        </li>
+                        <li>
+                            <img src="img/dr-dre-compton.png" alt="Dr Dre" title="Dr Dre">
+                        </li>
+                        <li>
+                            <img src="img/Easy-E.jpg" alt="Eazy-E" title="Eazy-E">
+                        </li>
+                        <li>
+                            <img src="img/travis-scott.png" alt="Travis Scott" title="Travis $cott">
+                        </li>
+                        <li>
+                            <img src="img/mckevin.jpg" alt="Mc Kevin" title="Mc kevin">
+                        </li>
+                        <li>
+                            <img src="img/mckevin.jpg" alt="Mc Kevin" title="Mc kevin">
+                        </li>
+
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="master_play">
+            <div class="wave">
+
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+
+
+            <div class="icon">
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+
+            <div class="vol">
+                <i class="bi bi-volume-down-fill"></i>
+                <input type="range" id="vol" min="0" value="30" max="100">
+                <div class=" vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+    </header>
+
+    <script src="app.js"></script>
+</body>
+</html>
